@@ -1,1 +1,9 @@
+# Ignore Django Secret Key file
 webark/secret_key.py
+
+# Ignore compiled python scripts
+*.pyc
+
+# Ignore Django Auth DB
+db.sqlite3
+
