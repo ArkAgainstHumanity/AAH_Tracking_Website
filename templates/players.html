@@ -1,0 +1,15 @@
+      <table class="table table-striped table-bordered">
+        <tr>
+          <th>Character Name</th>
+          <th>Level</th>
+          <th>Lastseen</th>
+        </tr>
+      {% for value in player %}
+        <tr>
+          <td>{{value.ARKCharacterName}}</td>
+          <td>{{value.Level}}</td>
+          <td>{{value.LastSeen}}</td>
+        </tr>
+      {% endfor %}
+      </table>
+
